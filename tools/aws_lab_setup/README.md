@@ -42,6 +42,12 @@ To set up the lab for Ansible training, follow these steps.
 
         pip install boto boto3
 
+1. Install `libselinux-python`
+
+        sudo dnf install libselinux-python
+        -or-
+        sudo yum install libselinux-python
+
 6. Create a `boto` configuration file containing your AWS access key ID and secret access key.
 
       Use the quickstart directions provided here: [http://boto3.readthedocs.io/en/latest/guide/quickstart.html](http://boto3.readthedocs.io/en/latest/guide/quickstart.html)
